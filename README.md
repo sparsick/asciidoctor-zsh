@@ -5,7 +5,7 @@
 Download the plugin into the custom plugin folder of oh-my-zsh
 ```shell
 cd $ZSH/custom/plugins
-git clone https://github.com/sparsick/asciidoctor-zsh ascii-doctor
+git clone https://github.com/sparsick/asciidoctor-zsh asciidoctor
 ```
 Activate the plugin. Add `asciidoctor` to the `plugins` list in the file `.zshrc`
 ```shell
