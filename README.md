@@ -18,5 +18,5 @@ plugins=(git git-extras history mvn web-search asciidoctor)
 
 | Alias                | Command  |
 |----------------------|--------------|
-|adoc | asciidoctor|
-|adocpdf | asciidoctor-pdf| 
+|adoc | asciidoctor -D target|
+|adocpdf | asciidoctor -r asciidoctor-pdf -b pdf -D target|
